@@ -1,0 +1,133 @@
+
+{
+  "dashboard": {
+    "title": "Social Media Dashboard",
+    "totalFollowers": "23,004",
+    "darkMode": false
+  },
+  "socialAccounts": [
+    {
+      "id": 1,
+      "username": "@nathanf",
+      "platform": "facebook",
+      "followers": "1987",
+      "label": "Followers",
+      "change": "12",
+      "changeLabel": "Today",
+      "icon": "./images/icon-facebook.svg",
+      "lineColor": "bg-facebook",
+      "isPositive": true
+    },
+    {
+      "id": 2,
+      "username": "@nathanf",
+      "platform": "twitter",
+      "followers": "1044",
+      "label": "Followers",
+      "change": "99",
+      "changeLabel": "Today",
+      "icon": "./images/icon-twitter.svg",
+      "lineColor": "bg-twitter",
+      "isPositive": true
+    },
+    {
+      "id": 3,
+      "username": "@realnathanf",
+      "platform": "instagram",
+      "followers": "11k",
+      "label": "Followers",
+      "change": "1099",
+      "changeLabel": "Today",
+      "icon": "./images/icon-instagram.svg",
+      "lineColor": "bg-linear-to-r from-instagram-start via-instagram-middle to-instagram-end",
+      "isPositive": true
+    },
+    {
+      "id": 4,
+      "username": "Nathan F.",
+      "platform": "youtube",
+      "followers": "8239",
+      "label": "Subscribers",
+      "change": "144",
+      "changeLabel": "Today",
+      "icon": "./images/icon-youtube.svg",
+      "lineColor": "bg-youtube",
+      "isPositive": false
+    }
+  ],
+  "overviews": [
+      {
+        "id": 1,
+        "platform": "facebook",
+        "title": "Page Views",
+        "value": "87",
+        "change": "3%",
+        "icon": "./images/icon-facebook.svg",
+        "isPositive": true
+      },
+      {
+        "id": 2,
+        "platform": "facebook",
+        "title": "Likes",
+        "value": "52",
+        "change": "2%",
+        "icon": "./images/icon-facebook.svg",
+        "isPositive": true
+      },
+      {
+        "id": 3,
+        "platform": "instagram",
+        "title": "Likes",
+        "value": "5462",
+        "change": "2257%",
+        "icon": "./images/icon-instagram.svg",
+        "isPositive": true
+      },
+      {
+        "id": 4,
+        "platform": "instagram",
+        "title": "Profile Views",
+        "value": "52k",
+        "change": "1375%",
+        "icon": "./images/icon-instagram.svg",
+        "isPositive": true
+      },
+      {
+        "id": 5,
+        "platform": "twitter",
+        "title": "Retweets",
+        "value": "117",
+        "change": "303%",
+        "icon": "./images/icon-twitter.svg",
+        "isPositive": true
+      },
+      {
+        "id": 6,
+        "platform": "twitter",
+        "title": "Likes",
+        "value": "507",
+        "change": "553%",
+        "icon": "./images/icon-twitter.svg",
+        "isPositive": true
+      },
+      {
+        "id": 7,
+        "platform": "youtube",
+        "title": "Likes",
+        "value": "107",
+        "change": "19%",
+        "icon": "./images/icon-youtube.svg",
+        "isPositive": false
+      },
+      {
+        "id": 8,
+        "platform": "youtube",
+        "title": "Total Views",
+        "value": "1407",
+        "change": "12%",
+        "icon": "./images/icon-youtube.svg",
+        "isPositive": false
+      }
+    ]
+  }
+
