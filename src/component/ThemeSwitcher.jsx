@@ -1,5 +1,9 @@
-function ThemeSwitcher({isDarkMode, setIsDarkMode}) {
- 
+import { useContext } from "react";
+import { Theme } from "../provider/ThemeProvider";
+
+function ThemeSwitcher() {
+  
+   const { isDarkMode, toggleTheme } = useContext(Theme);
   return (
     <div className="flex gap-4 items-center justify-between">
       <p className="text-text text-lg">Dark Mode</p>
@@ -9,9 +13,10 @@ function ThemeSwitcher({isDarkMode, setIsDarkMode}) {
       >
         <input
           type="checkbox"
+          checked={isDarkMode}
           className="appearance-none size-5  bg-card rounded-full 
           checked:bg-white checked:left-7 relative cursor-pointer transition-colors duration-300"
-          onClick={() => setIsDarkMode(!isDarkMode)}
+          onClick={toggleTheme}
         />
       </div>
     </div>
